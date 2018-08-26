@@ -4,7 +4,7 @@ include('dbcon.php');
 if(isset($_SESSION['uid'])) 
 {
 	header('location:admindash.php');
-	//exit();
+	exit();
 }
 
 
